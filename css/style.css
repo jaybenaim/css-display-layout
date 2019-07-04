@@ -36,37 +36,42 @@ li a {
     background-color: rgb(142, 252, 213); 
     width: 90%; 
     margin-left: 30px; 
-    margin-right: 10px; 
+    margin-right: 0; 
     padding: 15px; 
     padding-right: 0; 
     font-weight: bold; 
+    display: flex; 
+    
 }
 .yellow-line { 
     border-bottom: 2px solid yellow; 
+    padding: 0 3px; 
 }
 img { 
-    width: 140%; 
-    height: 100%;
+    width: 400px; 
+    height: 400px;
+    padding: 20px; 
+    padding-bottom: 0; 
 }
-#firstImage { 
-    width: 160%; 
-}
-.image-container { 
+.image-container {
     display: flex; 
+    flex-direction: row;
     justify-content: center; 
-    width: 90%; 
-}
-.image { 
-    display: block;
-    padding: 40px; 
+    
+    
 }
 .yellow { 
     background: rgb(242, 208, 12); 
-    width: 100%; 
-    padding: 0 30px; 
+    width: 400px;  
     text-align: center; 
     margin: 0 auto;
+    margin-bottom: 10px; 
 }
+
+p a { 
+    padding: 6px; 
+}
+
 footer { 
     background: black; 
     color: white; 
@@ -74,5 +79,3 @@ footer {
     text-align: center; 
     font-size: 13px; 
 }
-
-
