@@ -16,7 +16,7 @@ nav {
     justify-content: center;
 }
 nav ul { 
-    margin-top: 0; 
+    margin-top: 1px; 
 }
 nav li { 
     list-style: none; 
@@ -35,13 +35,13 @@ li a {
     margin-right: 92px; 
     padding: 1px; 
     padding-left: 15px; 
-    padding-right: 0; 
-    font-weight: bold; 
+    padding-right: 0;  
     font-size: 20px; 
 }
 
 .yellow-line { 
     border-bottom: 2px solid yellow; 
+    font-weight: 700; 
 }
 img { 
     width: 400px; 
