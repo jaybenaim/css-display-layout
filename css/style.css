@@ -14,7 +14,6 @@ h1 {
 nav {  
     display: flex; 
     justify-content: center;
-
 }
 nav ul { 
     margin-top: 0; 
@@ -24,8 +23,6 @@ nav li {
     display: inline-block;  
     background-color: #ccc; 
     padding: 7px; 
-    
-    
 }
 li a { 
     color: white; 
@@ -34,31 +31,28 @@ li a {
 }
 .alert-msg { 
     background-color: rgb(142, 252, 213); 
-    width: 90%; 
-    margin-left: 30px; 
-    margin-right: 0; 
-    padding: 15px; 
+    margin-left: 92px; 
+    margin-right: 92px; 
+    padding: 1px; 
+    padding-left: 15px; 
     padding-right: 0; 
     font-weight: bold; 
-    display: flex; 
-    
+    font-size: 20px; 
 }
+
 .yellow-line { 
     border-bottom: 2px solid yellow; 
-    padding: 0 3px; 
 }
 img { 
     width: 400px; 
     height: 400px;
-    padding: 20px; 
+    padding: 10px; 
     padding-bottom: 0; 
 }
 .image-container {
     display: flex; 
     flex-direction: row;
     justify-content: center; 
-    
-    
 }
 .yellow { 
     background: rgb(242, 208, 12); 
@@ -66,12 +60,11 @@ img {
     text-align: center; 
     margin: 0 auto;
     margin-bottom: 10px; 
+    padding: 10px 0; 
 }
-
 p a { 
     padding: 6px; 
 }
-
 footer { 
     background: black; 
     color: white; 
