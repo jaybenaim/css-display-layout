@@ -10,7 +10,6 @@
 h1 {  
     margin-left: 45px;
 }
-
 nav {  
     display: flex; 
     justify-content: center;
@@ -41,7 +40,8 @@ li a {
 
 .yellow-line { 
     border-bottom: 2px solid yellow; 
-    font-weight: 700; 
+    font-weight: 900; 
+    font-size: 26px; 
 }
 img { 
     width: 400px; 
